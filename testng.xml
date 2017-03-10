@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <listeners>
+   	 <listener class-name="com.test.baselib.MyNXGTestListner"></listener>
+   </listeners>
+      <test name="WelcomePage">
+    <classes>
+          	<class name="com.test.scripts.WelcomePage"/>
+    </classes>
+     </test>
+     <test name="JoinSulekha">
+    <classes>
+          	<class name="com.test.scripts.JoinSulekha"/>
+    </classes>
+     </test>
+     <test name="LoginToSulekha">
+    <classes>
+          	<class name="com.test.scripts.LoginToSulekha"/>
+    </classes>
+     </test>
+      <test name="SDLDWithoutType">
+    <classes>
+          	<class name="com.test.scripts.SDLDWithoutType"/>
+    </classes>
+     </test>
+      <test name="SDLDwithType">
+    <classes>
+          	<class name="com.test.scripts.SDLDwithType"/>
+    </classes>
+     </test>
+      <test name="UpdateAccount">
+    <classes>
+          	<class name="com.test.scripts.UpdateAccount"/>
+    </classes>
+     </test>
+     <test name="BrowseBusinessListing">
+    <classes>
+          	<class name="com.test.scripts.BrowseBusinessListing"/>
+    </classes>
+     </test>
+</suite> <!-- Suite -->

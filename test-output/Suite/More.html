@@ -1,0 +1,346 @@
+<html>
+<head>
+<title>TestNG:  More</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>More</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 17 16:31:36 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>1382 seconds (1382316 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.scripts.More.testPostedReview()'><b>testPostedReview</b><br>Test class: com.test.scripts.More<br>Test method: Check whether review posted by the user is displayed in Reviews page.<br/>
+<a href="#Output-1302725372" onClick='toggleBox("Output-1302725372", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1302725372" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1302725372">
+STEP577<br/>
+STEP578<br/>
+STEP579<br/>
+STEP580<br/>
+STEP581<br/>
+STEP582<br/>
+STEP583<br/>
+STEP584<br/>
+STEP585<br/>
+STEP586<br/>
+STEP587<br/>
+STEP588<br/>
+STEP589<br/>
+STEP590<br/>
+STEP591<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Prasannas-MacBook-Pro.local&apos;, ip: &apos;10.10.4.140&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{unicodekeyboard=true, app=/Users/automation/Downloads/IndiaSulekha6.3.2.ipa, networkConnectionEnabled=false, bundleId=com.appid.sulekhauserapp, databaseEnabled=false, deviceName=iPhone 5, fullReset=true, platform=MAC, showIOSLog=true, desired={unicodekeyboard=true, app=/Users/automation/Downloads/IndiaSulekha6.3.2.ipa, showIOSLog=true, platformVersion=9.3.2, automationName=Appium, bundleId=com.appid.sulekhauserapp, platformName=iOS, udid=2dde13a2961f5f1c6f5a0f737daf13bcb43457ef, deviceName=iPhone 5, fullReset=true}, platformVersion=9.3.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, udid=2dde13a2961f5f1c6f5a0f737daf13bcb43457ef}]
+Session ID: 0462aefa-f357-45a9-8c12-2ba027292725
+*** Element info: {Using=xpath, value=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIATableView[1]/UIATableCell[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:129)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.test.scripts.More.testPostedReview(More.java:380)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1302725372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1302725372'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Prasannas-MacBook-Pro.local&apos;, ip: &apos;10.10.4.140&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{unicodekeyboard=true, app=/Users/automation/Downloads/IndiaSulekha6.3.2.ipa, networkConnectionEnabled=false, bundleId=com.appid.sulekhauserapp, databaseEnabled=false, deviceName=iPhone 5, fullReset=true, platform=MAC, showIOSLog=true, desired={unicodekeyboard=true, app=/Users/automation/Downloads/IndiaSulekha6.3.2.ipa, showIOSLog=true, platformVersion=9.3.2, automationName=Appium, bundleId=com.appid.sulekhauserapp, platformName=iOS, udid=2dde13a2961f5f1c6f5a0f737daf13bcb43457ef, deviceName=iPhone 5, fullReset=true}, platformVersion=9.3.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, udid=2dde13a2961f5f1c6f5a0f737daf13bcb43457ef}]
+Session ID: 0462aefa-f357-45a9-8c12-2ba027292725
+*** Element info: {Using=xpath, value=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIATableView[1]/UIATableCell[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:129)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.test.scripts.More.testPostedReview(More.java:380)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>268</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.scripts.More.testAnyReview()'><b>testAnyReview</b><br>Test class: com.test.scripts.More<br>Test method: Tap on any review displayed in My reviews page<br/>
+<a href="#Output-1617174216" onClick='toggleBox("Output-1617174216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1617174216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1617174216">
+STEP592<br/>
+STEP593<br/>
+STEP594<br/>
+STEP595<br/>
+STEP596<br/>
+STEP597<br/>
+STEP598<br/>
+</div>
+</td>
+<td></td>
+<td>82</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+<tr>
+<td title='com.test.scripts.More.testListMyBuisnessPage()'><b>testListMyBuisnessPage</b><br>Test class: com.test.scripts.More<br>Test method: Check tapping on 'List my business'<br/>
+<a href="#Output-1563053805" onClick='toggleBox("Output-1563053805", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1563053805" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1563053805">
+STEP538<br/>
+STEP539<br/>
+STEP540<br/>
+STEP541<br/>
+STEP542<br/>
+STEP543<br/>
+STEP544<br/>
+STEP545<br/>
+</div>
+</td>
+<td></td>
+<td>82</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+<tr>
+<td title='com.test.scripts.More.testMoreScreen()'><b>testMoreScreen</b><br>Test class: com.test.scripts.More<br>Test method: Tap on More in Home page<br/>
+<a href="#Output-893523498" onClick='toggleBox("Output-893523498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-893523498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-893523498">
+STEP515<br/>
+STEP516<br/>
+STEP517<br/>
+STEP518<br/>
+STEP519<br/>
+STEP520<br/>
+STEP521<br/>
+STEP522<br/>
+STEP523<br/>
+STEP524<br/>
+STEP525<br/>
+STEP526<br/>
+STEP527<br/>
+</div>
+</td>
+<td></td>
+<td>96</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+<tr>
+<td title='com.test.scripts.More.testNotiResponsePage()'><b>testNotiResponsePage</b><br>Test class: com.test.scripts.More<br>Test method: Tap on the notification displayed<br/>
+<a href="#Output-1037163664" onClick='toggleBox("Output-1037163664", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1037163664" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1037163664">
+STEP555<br/>
+STEP556<br/>
+STEP557<br/>
+STEP558<br/>
+STEP559<br/>
+STEP560<br/>
+STEP561<br/>
+STEP562<br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+<tr>
+<td title='com.test.scripts.More.testNotificationPage()'><b>testNotificationPage</b><br>Test class: com.test.scripts.More<br>Test method: View notification and verify<br/>
+<a href="#Output-1539947037" onClick='toggleBox("Output-1539947037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1539947037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1539947037">
+STEP546<br/>
+STEP547<br/>
+STEP548<br/>
+STEP549<br/>
+STEP550<br/>
+STEP551<br/>
+STEP552<br/>
+STEP553<br/>
+STEP554<br/>
+</div>
+</td>
+<td></td>
+<td>95</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+<tr>
+<td title='com.test.scripts.More.testRemoveMyShortlist()'><b>testRemoveMyShortlist</b><br>Test class: com.test.scripts.More<br>Test method: Remove shortlist and verify.<br/>
+<a href="#Output-57624756" onClick='toggleBox("Output-57624756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-57624756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-57624756">
+STEP563<br/>
+STEP564<br/>
+STEP565<br/>
+STEP566<br/>
+STEP567<br/>
+STEP568<br/>
+STEP569<br/>
+STEP570<br/>
+STEP571<br/>
+STEP572<br/>
+STEP573<br/>
+STEP574<br/>
+STEP575<br/>
+STEP576<br/>
+</div>
+</td>
+<td></td>
+<td>140</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+<tr>
+<td title='com.test.scripts.More.testShortListPage()'><b>testShortListPage</b><br>Test class: com.test.scripts.More<br>Test method: Check tapping on 'Shortlists'<br/>
+<a href="#Output-1262110193" onClick='toggleBox("Output-1262110193", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1262110193" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262110193">
+STEP528<br/>
+STEP529<br/>
+STEP530<br/>
+STEP531<br/>
+STEP532<br/>
+STEP533<br/>
+STEP534<br/>
+STEP535<br/>
+STEP536<br/>
+STEP537<br/>
+</div>
+</td>
+<td></td>
+<td>108</td>
+<td>com.test.scripts.More@47ef968d</td></tr>
+</table><p>
+</body>
+</html>

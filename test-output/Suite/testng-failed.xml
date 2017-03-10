@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.test.baselib.MyNXGTestListner"/>
+  </listeners>
+  <test name="LoginToSulekha(failed)">
+    <classes>
+      <class name="com.test.scripts.UpdateAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.UpdateAccount -->
+      <class name="com.test.scripts.SDLDWithoutType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDWithoutType -->
+      <class name="com.test.scripts.SDLDwithType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDwithType -->
+      <class name="com.test.scripts.WelcomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.WelcomePage -->
+      <class name="com.test.scripts.BrowseBusinessListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.BrowseBusinessListing -->
+      <class name="com.test.scripts.JoinSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.JoinSulekha -->
+      <class name="com.test.scripts.LoginToSulekha">
+        <methods>
+          <include name="testWOEnteringEmail"/>
+          <include name="testTandCApplyLnk"/>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+          <include name="test6DigitVerificationCode"/>
+        </methods>
+      </class> <!-- com.test.scripts.LoginToSulekha -->
+    </classes>
+  </test> <!-- LoginToSulekha(failed) -->
+  <test name="SDLDWithoutType(failed)">
+    <classes>
+      <class name="com.test.scripts.UpdateAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.UpdateAccount -->
+      <class name="com.test.scripts.SDLDWithoutType">
+        <methods>
+          <include name="testEditIcnforAdditionalInfo"/>
+          <include name="tearDown"/>
+          <include name="testNeedLabelNeedName"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+          <include name="testUpdateInfo"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDWithoutType -->
+      <class name="com.test.scripts.SDLDwithType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDwithType -->
+      <class name="com.test.scripts.WelcomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.WelcomePage -->
+      <class name="com.test.scripts.BrowseBusinessListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.BrowseBusinessListing -->
+      <class name="com.test.scripts.JoinSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.JoinSulekha -->
+      <class name="com.test.scripts.LoginToSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.LoginToSulekha -->
+    </classes>
+  </test> <!-- SDLDWithoutType(failed) -->
+  <test name="SDLDwithType(failed)">
+    <classes>
+      <class name="com.test.scripts.UpdateAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.UpdateAccount -->
+      <class name="com.test.scripts.SDLDwithType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSubmitRequestBtn"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDwithType -->
+      <class name="com.test.scripts.SDLDWithoutType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDWithoutType -->
+      <class name="com.test.scripts.WelcomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.WelcomePage -->
+      <class name="com.test.scripts.BrowseBusinessListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.BrowseBusinessListing -->
+      <class name="com.test.scripts.JoinSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.JoinSulekha -->
+      <class name="com.test.scripts.LoginToSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.LoginToSulekha -->
+    </classes>
+  </test> <!-- SDLDwithType(failed) -->
+  <test name="BrowseBusinessListing(failed)">
+    <classes>
+      <class name="com.test.scripts.UpdateAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.UpdateAccount -->
+      <class name="com.test.scripts.SDLDWithoutType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDWithoutType -->
+      <class name="com.test.scripts.SDLDwithType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.SDLDwithType -->
+      <class name="com.test.scripts.WelcomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.WelcomePage -->
+      <class name="com.test.scripts.BrowseBusinessListing">
+        <methods>
+          <include name="testCallIcon"/>
+          <include name="testSendMessageIcon"/>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.BrowseBusinessListing -->
+      <class name="com.test.scripts.JoinSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.JoinSulekha -->
+      <class name="com.test.scripts.LoginToSulekha">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.scripts.LoginToSulekha -->
+    </classes>
+  </test> <!-- BrowseBusinessListing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
